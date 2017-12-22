@@ -23,6 +23,10 @@ namespace BackEnd
 
             WriteLine(friend.Name);
             WriteLine(friend.Speak());
+
+
+
+
             Read();
         }
     }

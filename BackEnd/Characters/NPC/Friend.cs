@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace BackEnd.Characters.NPC
 {
-    class Friend:Character
+    sealed class Friend:Character
     {
         public Friend()
         {
             Name = "Друг";
+            EstablishCharacteristics();
         }
     }
 }

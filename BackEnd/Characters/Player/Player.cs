@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BackEnd.Characters
+namespace BackEnd.Characters.Player
 {
-    interface IStandartAction
+    class Player
     {
-        string Speak();
-        void EstablishCharacteristics();
     }
 }
